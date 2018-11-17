@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "1!";
+const prefix = "-h";
 /////////////////////////
 ////////////////////////
 
@@ -318,7 +318,7 @@ function play(guild, song) {
 
 
 client.on('message', message => {
-    if (message.content === '1!help') {
+    if (message.content === '-hhelp') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
         .setDescription('**برفكس البوت !1**')
@@ -349,7 +349,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     var prefix = "1!"
-if (message.content.startsWith(prefix + "uptime")) {
+if (message.content.startsWith(prefix + "upt.ime")) {
    let uptime = client.uptime;
 
    let days = 0;
