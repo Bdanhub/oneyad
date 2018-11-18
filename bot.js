@@ -397,12 +397,6 @@ if (message.content.startsWith(prefix + "upt.ime")) {
 }
 });
 
-client.on('ready', () => {
-  client.user.setGame(` 1!help .`,'');
-  console.log('---------------');
-  console.log('Desert Bot Is Online')
-  console.log('---------------')
-});
 
 
 
