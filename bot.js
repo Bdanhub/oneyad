@@ -44,6 +44,12 @@ client.on('message', async msg =>{
     }
 });
 /////////////////////////
+client.on('ready', () => {
+  client.user.setGame('╲⎝ :skull_crossbones: 𝔸𝕃𝔾𝕆𝕂ℝ  :fire::skull_crossbones:⎠╱','https://www.twitch.tv/peery13');
+  console.log('---------------');
+  console.log(' Bot Is Online')
+  console.log('---------------')
+});
 ////////////////////////
 //////////////////////
 client.on('message', async msg =>{
